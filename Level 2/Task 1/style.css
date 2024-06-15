@@ -1,0 +1,81 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(64, 140, 131, 0.7)),url(assets/background.jpg);
+    background-attachment: fixed;
+    background-size: 100% 120%;
+    padding: 10px;
+    color: white;
+}
+#logo{
+    top:0;
+    text-align: center;
+}
+.content{
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.col1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+}
+.col2{
+    padding-top: 200px;
+}
+.card{
+    width: 250px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 20px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    position: relative;
+    justify-content: space-evenly;
+}
+.c1{
+    background-image: linear-gradient(rgba(0, 148, 128, 0.7),rgba(0,0,0,0)),url(assets/img1.jpeg);
+}
+.c2{
+    background-image: linear-gradient(rgba(0, 148, 141, 0.7),rgba(0,0,0,0)),url(assets/img2.jpg);
+}
+.c3{
+    background-image: linear-gradient(rgba(0, 133, 148, 0.7),rgba(0,0,0,0)),url(assets/img3.jpg);
+}
+.c4{
+    background-image: linear-gradient(rgba(0, 148, 143, 0.7),rgba(0,0,0,0)),url(assets/img4.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+#card-head{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#cloud{
+    text-align: justify;
+    padding-right:70px ;
+}
+button{
+    width: 90px;
+    height: auto;
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: aqua;
+    transition: transform 0.5s;
+    font-weight: bold;
+}
+button:hover{
+    transform: translateX(10px);
+}
